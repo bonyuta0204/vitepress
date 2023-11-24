@@ -305,12 +305,19 @@ export namespace DefaultTheme {
      */
     next?: string | boolean
 
-    /** Cutom title form previous page button.
+    /**
+     *  Cutom link label for previous page button.
      *
      * @default undefined
      */
-    nextTitie?: string
-    prevTitle?: string
+    prevLinkLabel?: string
+
+    /**
+     *  Cutom link label for next page button.
+     *
+     * @default undefined
+     */
+    nextLinkLabel?: string
   }
 
   // social link ---------------------------------------------------------------
