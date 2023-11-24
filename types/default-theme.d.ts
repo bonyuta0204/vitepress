@@ -304,6 +304,13 @@ export namespace DefaultTheme {
      * @default 'Next page'
      */
     next?: string | boolean
+
+    /** Cutom title form previous page button.
+     *
+     * @default undefined
+     */
+    nextTitie?: string
+    prevTitle?: string
   }
 
   // social link ---------------------------------------------------------------

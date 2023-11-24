@@ -32,6 +32,7 @@ export function usePrevNext() {
                 : typeof frontmatter.value.prev === 'object'
                   ? frontmatter.value.prev.text
                   : undefined) ??
+              theme.value.docFooter?.prevTitle ??
               candidates[index - 1]?.docFooterText ??
               candidates[index - 1]?.text,
             link:
@@ -48,6 +49,7 @@ export function usePrevNext() {
                 : typeof frontmatter.value.next === 'object'
                   ? frontmatter.value.next.text
                   : undefined) ??
+              theme.value.docFooter?.nextTitie ??
               candidates[index + 1]?.docFooterText ??
               candidates[index + 1]?.text,
             link:
